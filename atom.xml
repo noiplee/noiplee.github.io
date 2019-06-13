@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.noiplee.com/"/>
-  <updated>2019-06-12T14:42:40.833Z</updated>
+  <updated>2019-06-13T14:04:19.064Z</updated>
   <id>https://www.noiplee.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产品经理的python爬虫入门课 - （一）为什么要学？</title>
+    <link href="https://www.noiplee.com/2019/06/13/2019-06-13-%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84python%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%E8%AF%BE---%EF%BC%88%E4%B8%80%EF%BC%89%E5%9F%BA%E7%A1%80/"/>
+    <id>https://www.noiplee.com/2019/06/13/2019-06-13-产品经理的python爬虫入门课---（一）基础/</id>
+    <published>2019-06-13T10:23:46.000Z</published>
+    <updated>2019-06-13T14:04:19.064Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>笔者是在几年前转产品经理之前，是一名程序员，主要是用C语言开发嵌入式软件。</p><p>Python略懂一二，真正接触之后发现用Python编程是在是太幸福了，几句话就能连接网络，学习门槛大大降低，这在C语言当中很难想象。</p><p>我开始意识到，这个时代的编程变得越来越简单，每个人都能够通过编程来获得高效处理工作的能力。</p><p>就以我的产品工作为例目前为例，做竞品分析时经常需要收集大量产品的信息，而我只能不断用截图和粘贴复制加入到excel当中，后面再整理一些列数据放进PPT，相信这也是不少产品或营销人的日常工作。</p><p>「这种重复的工作就应该让机器来做，省下来的时间应该放在自己分析的部分。」这是我每次做完报告之后的感叹。</p><p>现在有了Python，对绝大多数「坐办公室」的人来说都是一项福音。</p><p>让大部分类似我这样的产品经理尽快享受到自动化带来的工作效率提升，是我的一个初心。</p><h2 id="产品经理为什么要学Python和爬虫？"><a href="#产品经理为什么要学Python和爬虫？" class="headerlink" title="产品经理为什么要学Python和爬虫？"></a>产品经理为什么要学Python和爬虫？</h2><p>理由其实很简单：</p><ul><li>产品经理需要更多的数据分析做决策，靠人找效率低而且容易出错。</li><li>这个时代获取数据变得很容易，成本也变得极低，例如花点时间学会Python。</li><li>编程和获取数据都会变得越来越简单，人工智能也许能够取代人，但数据的分析依赖人的价值判断，会在未来成为核心的能力。</li></ul><h2 id="为什么学Python"><a href="#为什么学Python" class="headerlink" title="为什么学Python?"></a>为什么学Python?</h2><p>理由很多，也很简单：</p><ul><li>上手特别简单，如我所说，几句话打开网页，有意思。</li><li>可移植性强，基本上Mac/Linux/Windows上的代码都没有区别。</li><li>代码可读性强，懂点英语的人都会觉得「逻辑」顺畅。</li><li>面向对象编程，这才是符合人类的思维模式的编程语言。</li><li>最后，产品经理不是要学好技术跟程序猿单挑，而是把编程作为一项技能，提升自己的工作效率，当然，顺便也能提升对开发的「同理心」。</li></ul><h2 id="为什么学爬虫？"><a href="#为什么学爬虫？" class="headerlink" title="为什么学爬虫？"></a>为什么学爬虫？</h2><p>请问你是否面临过下面的问题？</p><ul><li>老板让你两天个研究完竞争对手的产品目录并作一个简单的报告，结果花了两天收集数据，没有时间分析总结？</li><li>几个月前辛辛苦苦下载的数据，现在过时了，又需要重复之前的动作？</li><li>每组数据需要自己截图或者下载图片，然后复制文字，是不是会奔溃？</li></ul><p>如果有其中一项答案是肯定的，估计你已经明白为何产品经理总有一种打杂的感觉，主要是花费了大量时间在重复的劳动中。</p><p>爬虫技术就是能够帮助你自动化处理下载这些数据的方法。</p><p>什么是爬虫？</p><p>平时上网，点击一下网页，它在浏览器呈现出来的内容（文字，图片，视频等），就是你能获得的内容。</p><p>按照这个样子，我们所需要的数据其实都在我们点击网页所获取的内容当中。</p><p>我们要做的，就是不断地「点击网页」-「获取内容」-「解析数据」-「存储数据」-「展示数据」。</p><p>而爬虫，就是帮助你「点击网页」-「获取内容」-「解析数据」-「存储数据」的过程，而「展示数据」一部分靠python制作精美的数据图表，另一方还是要靠自己的分析能力。</p><p>是不是有点小激动了？下篇文章聊聊python的基础。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;笔者是在几年前转产品经理之前，是一名程序员，主要是用C语言开发嵌入式软件。&lt;/p&gt;
+&lt;p&gt;Python略懂一二，真正接触之后发现用Pytho
+      
+    
+    </summary>
+    
+      <category term="爬虫" scheme="https://www.noiplee.com/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="爬虫" scheme="https://www.noiplee.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="数据分析" scheme="https://www.noiplee.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+      <category term="python" scheme="https://www.noiplee.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>小米AIoT的赌局</title>
